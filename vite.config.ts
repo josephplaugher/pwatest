@@ -12,7 +12,8 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       devOptions: {
-        enabled: true
+        enabled: true,
+        type: 'module'
       },
       includeAssets: ['favicon.ico', 'logo192x192.png', 'logo192x192.png'],
       manifest: {
